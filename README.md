@@ -39,4 +39,4 @@ Get grouped conversation history per user
 Swagger available at: https://localhost:{port}/swagger
 
 #Clone repo
-git clone https://github.com/your-repo-name/ChatBotAPI.git
+git clone https://github.com/HusseinAT-coder/CTSChatBotAPI.git
