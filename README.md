@@ -33,7 +33,16 @@ json
   "userId": "001"
 }
 
+'POST /api/admin/login'
+json
+{
+  "username": "admin",
+  "password": "password"
+}
+
+
 'GET /api/admin/conversations'
+Authorization: Bearer {token}
 Get grouped conversation history per user
 
 Swagger available at: https://localhost:{port}/swagger

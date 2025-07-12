@@ -65,7 +65,7 @@ namespace CTSChatBotAPI.Controllers
                     .Where(m => m.UserId == payload.UserId && m.Direction == "in") // we can include ai replies too
                     .OrderBy(m => m.Timestamp) // --> get latest set of messages
                     .Select(m => m.Content) // avoid getting uneccessary data
-                    .TakeLast(5) // Last 5 messages
+                    //.TakeLast(5) // Last 5 messages
                     .ToList();
 
             if (!previousMessages.Any())
